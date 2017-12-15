@@ -1,0 +1,10 @@
+==============Statistics of the Dataset================
+Number of distinct targets: 3326
+Average Number of Paths per Target: 15.43
+Maximum Number of Paths per Target: 1134.00
+Average length of Paths: 5.95
+Maximum length of Paths: 109.00
+Average in_degree = out_degree = 26.04
+Maximum in_degree: 1551
+Maximum out_degree: 294
+=====================End of Output======================
