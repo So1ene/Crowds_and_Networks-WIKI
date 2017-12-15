@@ -13,4 +13,5 @@
 
 ## Results
       * The result is stored in the file "results.json" with the form {"Paths:[[path1], [path2], ...], "Target":..., "MW":[candidates], "SVD":[candidates], "Frequency":[candidates]}
+      * Candidates in the list are already ranked in the decreasing order.
       * May use json.loads() to load it.
