@@ -236,8 +236,8 @@ class Wiki():
             appro_Mat=np.load('saved/approx_mat_K'+str(self.opt.K)+'.npy')
         else:
             print("======calculating the approximation of adjacent matrix======")
-            appro_Mat=getApprox(K, adjMat)
-            np.save("saved/approx_mat_K"+str(K), appro_Mat)
+            appro_Mat=self.getApprox(self.opt.K, adjMat)
+            np.save("saved/approx_mat_K"+str(self.opt.K), appro_Mat)
 
         print("======calculating the candidators=======")
         #process all the data.

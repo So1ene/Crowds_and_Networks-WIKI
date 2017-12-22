@@ -78,7 +78,7 @@ def PageRank(adjMat):
     return values
 
 def getResMat(adjMat, dict_s2i, resFile, method):
-    resMat=adjMat
+    resMat=np.copy(adjMat)
     with open(resFile, "r") as file:
         for line in file.readlines():
             line=json.loads(line)
